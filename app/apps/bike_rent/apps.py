@@ -2,4 +2,5 @@ from django.apps import AppConfig
 
 
 class BikeRentConfig(AppConfig):
-    name = 'bike_rent'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "apps.bike_rent"
