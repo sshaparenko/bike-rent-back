@@ -1,3 +1,6 @@
 from django.contrib import admin
+from . import models
 
-# Register your models here.
+admin.site.register(models.Bike)
+admin.site.register(models.BikeCategory)
+admin.site.register(models.RentOrder)
